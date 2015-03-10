@@ -595,31 +595,44 @@ p{
 #portfolio{
     background-color: #ecf0f1;
 }
-.portfolio-img{
-    max-width: 100%;
-    max-height:600px;
+
+.p-caption{
+    margin-left: auto;
+    margin-right: auto;
 }
-.portfolio-item{
-    background-color: white;
-    margin-left:auto; margin-right:auto;
-    width: 60vw;
-    max-width: 600px;
-    padding: 10px 10px 1px 10px;
-    margin-top: 4vw;
-}
-.portfolio-title{
-    margin-top: -5px;
-    border-collapse: separate;
-    border-spacing: 1vmax;
-    display: table;
-}
-.portfolio-title p{
-    font-family: "Montserrat";
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 2vmax;
+table, td{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
     
 }
+td{
+    height: 50px;
+    width: 50px;
+}
+th{
+    height: 10px;
+}
+td img{
+    width: 100%;
+    height: 100%;
+}
+.p-title{
+    width: 0;
+    padding-right: 10vmax;
+    font-family: "Montserrat";
+    font-size: 4vmin;
+}
+.p-img{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-img img{
+    width: 100%;
+}
+
 .title-stop{
     margin-right: 1vmax;
     display: table-cell;
@@ -629,15 +642,7 @@ p{
     background-color: #E73C53;
     z-index: 100;
 }
-.portfolio-body{
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-}
-.portfolio-body img{
-    
-    max-width:100%; max-height:100%;
-}
+
 .button{
     margin: 0% 1%;
     display:inline-block;
