@@ -595,15 +595,17 @@ p{
 #portfolio{
     background-color: #ecf0f1;
 }
-
+.p-item{
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+}
 .p-caption{
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 table, td{
     background-color: black;
     color: white;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 3px;
     
 }
@@ -611,7 +613,13 @@ td{
     height: 50px;
     width: 50px;
 }
+td + td{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    
+}
 th{
+    background-color: #f1c40f;
     height: 10px;
 }
 td img{
@@ -625,12 +633,16 @@ td img{
     font-size: 4vmin;
 }
 .p-img{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #ffffff;
+    max-width: 100%;
+    max-height: 600px;
+    margin-right: auto; margin-left: auto;
 }
 .p-img img{
-    width: 100%;
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
 }
 
 .title-stop{
