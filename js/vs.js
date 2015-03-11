@@ -8,7 +8,7 @@ $(document).ready(function(){
     
     if (currentClass == "scroll-u"){
         $('html, body').animate({
-        scrollTop: $("#header").offset().top
+        scrollTop: $("#navbar").offset().top
     }, 500);
     }
     else if (currentClass == "scroll-r"){
