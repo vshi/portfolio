@@ -502,8 +502,8 @@ body{
 }
 
 #navbar{
-padding: 35px 0 0 0;
-background-color: white;
+    height: 20vmin;
+    background-color: white;
 }
 #navbar ul{
     float: right;
@@ -574,6 +574,15 @@ h1{
 .header-stop-graphic{
     background-color: #f1c40f;
 }
+.header-stop-illustration{
+    background-color: #9b59b6;
+}
+.header-stop-interactive{
+    background-color: #1abc9c;
+}
+.header-stop-code{
+    background-color: #3498db;
+}
 .header-stoptxt{
     font-family: "Montserrat";
     color: white;
@@ -596,22 +605,40 @@ p{
     overflow: hidden;
     border-radius: 100%;
 }
+.top{
+    display: block;
+    height: 70vmin;
+}
 .portfolio{
+    display: block;
     background-color: #ecf0f1;
 }
-.p-item{
+[class*='p-item']{
     width: 100%;
-    height: 52.5vw; /*4:3 aspect ratio*/
+    padding: 10px 0px 0px 0px;
 }
-.p-caption{
+.p-item-illustration{
+}
+[class*='p-caption']{
+    background-color: #bdc3c7 ;
+    vertical-align: top;
     display: inline-block;
     width: 30vw;
+    top: 0;
     height: inherit;
-    background-color: #a7a9ac ;
+    
 }
+.p-caption-illustration{
+    width: 30vw;
+}
+
 #p-caption{
     margin: auto;
     table-layout: fixed;
+}
+td ul{
+    font-weight:300;
+    font-size: 0.8em;
 }
 td{
     color: white;
@@ -633,30 +660,38 @@ th{
 .th-graphic{
     background-color: #f1c40f;
 }
+.th-illustration{
+    background-color: #9b59b6;
+}
+.th-interactive{
+    background-color: #1abc9c;
+}
 td img{
     width: 100%;
     height: 100%;
 }
 .p-title{
-    width: 0;
-    padding-right: 10vmax;
     font-family: "Montserrat";
     font-size: 2em;
 }
-.p-img{
+[class*='p-img']{
     display: inline-block;
     background-color: #ffffff;
     width: 69vw;
     height: 100%;
     overflow: hidden;
     margin-right: auto; margin-left: auto;
+    margin-bottom: -5px;
 }
 .p-img img{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    display: block;
     
+    width: auto;
+    height: 100%;
+    margin: auto;
+    display: block; 
+}
+.p-img-illustration{
+    text-align: center;
 }
 
 .title-stop{
