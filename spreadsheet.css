@@ -495,12 +495,6 @@ a{
     opacity: 0.4;
     transition: .15s ease-in;
 }
-body{
-    margin-left:auto;
-    margin-right:auto;
-    background-color: white;
-}
-
 #navbar{
     height: 20vmin;
     background-color: white;
@@ -620,7 +614,6 @@ p{
 .p-item-illustration{
 }
 [class*='p-caption']{
-    background-color: #bdc3c7 ;
     vertical-align: top;
     display: inline-block;
     width: 30vw;
@@ -641,8 +634,8 @@ td ul{
     font-size: 0.8em;
 }
 td{
-    color: white;
-    border-bottom: 1px solid white;
+    color: black;
+    border-bottom: 1px solid black;
     padding: 3px;
     height: 50px;
     width: 50px;
@@ -729,6 +722,14 @@ td img{
     padding-left: 5%;
     float:left;
     font-size: 0.75em;
+}
+.scroll-u:hover{
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    ease-in-out:.3s;
+    opacity: 0.5;
 }
 
 
