@@ -594,13 +594,14 @@ h1{
     font-weight: 300;
 }
 .index-portfolio{
-    width: 100%;
+    background-color: #ecf0f1;
 }
 .index-portfolio li{
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    margin: auto;
-    overflow: hidden;
-    max-height: 400px;
+    max-width: 800px;
 }
 #circ-container{
     margin-left: auto;
@@ -617,11 +618,17 @@ h1{
 }
 .portfolio{
     display: block;
-    background-color: #ecf0f1;
+    background-color: #ecf0f1; /*grey*/
 }
 [class*='p-item']{
     width: 100%;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
+[class*='p-item']:nth-child(1){
+    padding-top: 20px;
+}
+[class*='p-item']:nth-last-child(1){
+    padding-bottom: 20px;
 }
 
 [class*='p-caption']{
@@ -728,7 +735,7 @@ td img{
     background-color: #ecf0f1;
 }
 #footer > [class*='col-']{
-    background-color: #E73C53;
+    margin-top: 10px;
     padding: 1%;
 }
 #footer p{
