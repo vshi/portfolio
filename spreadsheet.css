@@ -496,6 +496,7 @@ a{
     transition: .15s ease-in;
 }
 #navbar{
+    display: block;
     height: 20vmin;
     background-color: white;
 }
@@ -548,6 +549,7 @@ h1{
     letter-spacing: 0.5vmin;
 }
 .parallax-window{
+    display: block;
     background: transparent;
 }
 #header{
