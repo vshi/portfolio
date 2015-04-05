@@ -1,3 +1,4 @@
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -594,6 +595,24 @@ h1{
 .parallax-window p{
     font-size: 2vmax;
     font-weight: 300;
+}
+#smart-suds-portfolio{
+    background-color: #ecf0f1;
+}
+.smart-suds-portfolio{
+    
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.smart-suds-portfolio > *{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.smart-suds-portfolio p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
 }
 .index-portfolio{
     background-color: #ecf0f1;
