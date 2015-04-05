@@ -427,16 +427,7 @@ th {
 }
 
 /*<!-- DEFAULT COLORS -->
-#243757: dblue
-#3a5f6f: blue
-#dad5b7: tan
-#c2b79b: brown
-#665e52: dbrown
-        <meta name="color:lgreen" content="#E0E086"/>
-        <meta name="color:green" content="#acbe14"/>
-        <meta name="color:black" content="#2c1f19"/>
-        <meta name="color:turq" content="#327a76"/>
-        <meta name="color:lturq" content="#bce2d7"/>
+
              
         <!-- END DEFAULT COLORS -->*/
 
@@ -600,19 +591,38 @@ h1{
     background-color: #ecf0f1;
 }
 .smart-suds-portfolio{
-    
-    max-width: 800px;
+    max-width: 700px;
+    background-color: white;
+    padding: 30px;
     margin-left:auto;
     margin-right:auto;
 }
 .smart-suds-portfolio > *{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*green: #8aba60*/
+.smart-suds-title{
+    font-family: "Montserrat";
+    font-size: 3vmax;
+    color: #8aba60;
 }
 .smart-suds-portfolio p{
+    text-align: left;
+    text-indent: 15px;
     font-family: "Montserrat";
     font-weight: 400;
     font-size: 12px;
+}
+.smart-suds-portfolio ul li{
+    list-style-type: disc;
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+}
+.smart-suds-portfolio img{
+    width: 70%;
 }
 .index-portfolio{
     background-color: #ecf0f1;
